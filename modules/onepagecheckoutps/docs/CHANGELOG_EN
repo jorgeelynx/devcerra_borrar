@@ -1,0 +1,15 @@
+CHANGELOG
+
+[ADD] = Adding New Functionality
+[MOD] = Modifications and upgrades
+[FIX] = Fix problems or errors (bugs)
+
+V1.0.0
+- New version for PrestaShop 1.7
+
+V1.0.1 (09/26/2017)
+[+] ADD: Displays the discounts of the products in the cart summary. (Only for versions upper to PrestaShop 1.7.2.X)
+[-] FIX: Order messages were not being saved. (Only for versions upper to PrestaShop 1.7.2.X).
+[-] FIX: Problem with Guest Checkout.
+[-] FIX: When requesting the invoice address and not completing the fields, it gave visual problems.
+[-] FIX: It leaves the header and footer again in the checkout.

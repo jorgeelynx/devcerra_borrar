@@ -1,0 +1,15 @@
+CHANGELOG (Historial de versiones)
+
+[ADD] = Adiciones de funcionalidades
+[MOD] = Modificaciones y actualizaciones
+[FIX] = Correccion de problemas o errores (Bugs)
+
+V1.0.0
+- Nueva version para PrestaShop 1.7
+
+V1.0.1 (26/09/2017)
+[+] ADD: Muestra los descuentos de los productos en el resumen de carrito. (Solo para versiones superiores a PrestaShop 1.7.2.X)
+[-] FIX: No se estaba guardando los mensajes de los pedidos. (Solo para versiones superiores a PrestaShop 1.7.2.X).
+[-] FIX: Problema cuando se tenia activo la compra por invitado.
+[-] FIX: Al requerir la direccion de facturacion y no completar los campos, daba problemas visuales.
+[-] FIX: Se vuelve a dejar el header y footer en la pagina de compra.

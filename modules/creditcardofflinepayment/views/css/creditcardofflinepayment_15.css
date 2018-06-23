@@ -1,0 +1,142 @@
+/**
+* Credit card offline payment
+*
+* NOTICE OF LICENSE
+*
+* This product is licensed for one customer to use on one installation (test stores and multishop included).
+* Site developer has the right to modify this module to suit their needs, but can not redistribute the module in
+* whole or in part. Any other use of this module constitues a violation of the user agreement.
+*
+* DISCLAIMER
+*
+* NO WARRANTIES OF DATA SAFETY OR MODULE SECURITY
+* ARE EXPRESSED OR IMPLIED. USE THIS MODULE IN ACCORDANCE
+* WITH YOUR MERCHANT AGREEMENT, KNOWING THAT VIOLATIONS OF
+* PCI COMPLIANCY OR A DATA BREACH CAN COST THOUSANDS OF DOLLARS
+* IN FINES AND DAMAGE A STORES REPUTATION. USE AT YOUR OWN RISK.
+*
+*  @author    idnovate.com <info@idnovate.com>
+*  @copyright 2017 idnovate.com
+*  @license   See above
+*/
+
+
+
+#module-creditcardofflinepayment-payment.hide-left-column.hide-right-column #center_column,
+#module-creditcardofflinepayment-validation.hide-left-column.hide-right-column #center_column { width: 980px; }
+
+#payment_form.hide-right-column #center_column,
+#module-creditcardofflinepayment-validation.hide-right-column #center_column { width: 757px; margin-right: 0}
+
+ul.step { width: auto; }
+
+#payment_form {
+    font-size: 12px;
+    color: black;
+    background: #F8F8F8;
+    overflow: hidden;
+    clear: both;
+}
+
+#module-creditcardofflinepayment-payment #payment_form,
+#module-creditcardofflinepayment-validation #payment_form { border: 1px solid #CCC; }
+
+#payment_form .payment_form_container { padding: 0 15px; }
+
+#payment_form p {
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+#payment_form p.info-title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#payment_form p.text input,
+#payment_form p.password input,
+#payment_form p.select input {
+    padding: 0 5px;
+    height: 22px;
+    width: auto;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+}
+
+#payment_form p.text.expiry-date input {
+    width: 60px;
+    text-align: center;
+}
+
+#payment_form ::-webkit-input-placeholder {
+   text-align: center;
+}
+
+#payment_form :-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+#payment_form ::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+#payment_form :-ms-input-placeholder {
+   text-align: center;
+}
+
+#payment_form p.text input.pin {width: auto;}
+
+#payment_form p.card_cvc img { vertical-align: middle; }
+
+#payment_form p.text label sup,
+#payment_form p.password label sup,
+#payment_form p.select label sup {
+    color: #990000;
+}
+
+#payment_form p.select select,
+#module-creditcardofflinepayment-validation #payment_form p.select select {
+    padding: 0 5px;
+    height: 22px;
+    border: 1px solid #CCC;
+    font-size: 12px;
+    color: #666;
+    display: inline-block;
+}
+
+#payment_form p.radio span,
+#payment_form p.text label,
+#payment_form p.password label,
+#payment_form p.select label,
+#payment_form p.select span,
+#payment_form p.textarea label {
+    display: inline-block;
+    padding: 6px 15px;
+    width: 40%;
+    max-width: 185px;
+    font-size: 14px;
+    text-align: right;
+}
+
+#module-creditcardofflinepayment-validation #payment_form #errorDiv {
+    margin-bottom: 15px;
+}
+
+#payment_form h3 {
+    margin: 0 0 15px 0;
+    padding: 8px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: url(../img/bg_form_h3.png) repeat-x 0 0 #989898;
+}
+
+#card-processing {
+    display: none;
+    text-align:center;
+    font-weight:bold;
+    display:none;
+    margin:20px 0 0 0;
+}

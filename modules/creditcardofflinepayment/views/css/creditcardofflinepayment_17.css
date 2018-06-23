@@ -1,0 +1,73 @@
+/**
+* Credit card offline payment
+*
+* NOTICE OF LICENSE
+*
+* This product is licensed for one customer to use on one installation (test stores and multishop included).
+* Site developer has the right to modify this module to suit their needs, but can not redistribute the module in
+* whole or in part. Any other use of this module constitues a violation of the user agreement.
+*
+* DISCLAIMER
+*
+* NO WARRANTIES OF DATA SAFETY OR MODULE SECURITY
+* ARE EXPRESSED OR IMPLIED. USE THIS MODULE IN ACCORDANCE
+* WITH YOUR MERCHANT AGREEMENT, KNOWING THAT VIOLATIONS OF
+* PCI COMPLIANCY OR A DATA BREACH CAN COST THOUSANDS OF DOLLARS
+* IN FINES AND DAMAGE A STORES REPUTATION. USE AT YOUR OWN RISK.
+*
+*  @author    idnovate.com <info@idnovate.com>
+*  @copyright 2017 idnovate.com
+*  @license   See above
+*/
+
+.card-payment #card-processing {
+    text-align:center;
+    font-weight:bold;
+    margin:20px 0 0 0;
+}
+
+.card-payment .month-input {
+    padding-left: 0;
+    text-align: center;
+}
+.card-payment .year-input {
+    padding-right: 0;
+    text-align: center;
+}
+
+.card-payment .month-input input,
+.card-payment .year-input input {
+    text-align: center;
+}
+
+.card-payment .info-title {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card-payment ::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.card-payment :-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+.card-payment ::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+.card-payment :-ms-input-placeholder {
+   text-align: center;
+}
+
+/******************* FORM IN CHECKOUT PAGE *******************/
+.js-payment-option-form .card-payment .card-issuers img {
+    margin-right: 4px;
+}
+
+/* Hide card.js when there isn't enough space */
+@media (max-width: 768px) {
+  #credit-form .payment_form_container .col-sm-6 { width: 100% }
+  .card-wrapper { display: none }
+}

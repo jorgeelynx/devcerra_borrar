@@ -1,0 +1,18 @@
+.pafield {
+    box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, .1);
+    margin-top: 1rem;
+    background: #fff;
+    padding: 1.25rem 1.875rem;
+}
+
+.pafield:first-of-type {
+    margin-top: 2rem;
+}
+
+.pafield:last-of-type {
+    margin-bottom: 20px;
+}
+
+.pafield h5 {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}

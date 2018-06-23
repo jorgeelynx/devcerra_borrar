@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>creditcardofflinepayment</name>
+    <displayName><![CDATA[Pago con tarjeta]]></displayName>
+    <version><![CDATA[3.0.9]]></version>
+    <description><![CDATA[Este m&oacute;dulo te permite hacer cobros a tus cliente con un TPV f&iacute;sico o con otro m&eacute;todo de pago.]]></description>
+    <author><![CDATA[idnovate]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[¿Seguro que deseas eliminar el módulo y la información relacionada?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

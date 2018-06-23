@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>combinationstab</name>
+    <displayName><![CDATA[Combinaciones Tab Pro]]></displayName>
+    <version><![CDATA[2.0.1]]></version>
+    <description><![CDATA[M&oacute;dulo crea una matriz de combinaciones en cada p&aacute;gina de producto en su tienda]]></description>
+    <author><![CDATA[mypresta.eu]]></author>
+    <tab><![CDATA[smart_shopping]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

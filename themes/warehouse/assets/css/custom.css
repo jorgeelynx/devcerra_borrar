@@ -1,0 +1,63 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+
+
+/*! Light */
+#light {
+    background-color:;
+    box-shadow: 0 0 5px rgba(0,0,0, .8);
+    overflow: hidden;
+    padding: 0 0 4px;
+    width: 90px;
+    margin: auto;
+    border-radius: 4px;
+   }
+.availability-colors #light {
+ position: absolute;
+    top: 50%;
+    transform: translateY(-50%);}
+
+#light span {
+    border-radius: 50px;
+    display: block;
+    height: 20px;
+    margin: auto 4px 0;
+    opacity: .1;
+    width: 20px;
+	float:left;
+}
+
+/*! Light colours */
+#red    { background-color: red; }
+#orange { background-color: orange; }
+#green  { background-color: green; }
+
+/*! Active states */
+#light span.active    { opacity: 1; }
+#light #red.active    { box-shadow: 0 0 10px red; }
+#light #orange.active { box-shadow: 0 0 10px orange; }
+#light #green.active  { box-shadow: 0 0 10px green; }
+
+/*! Toggle button */
+button {
+    margin-top: 10px;
+}
+
+
+.availability-colors span {
+    display:block;
+    text-align:center;
+    margin-bottom:5px;
+}
+
+.availability-colors-list {
+   
+position:absolute;
+    right:10px;
+    top:10px;
+display:none; 
+}
+#ct_matrix .qty {height:37px;}

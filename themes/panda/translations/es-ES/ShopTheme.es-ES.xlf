@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="themes/panda/templates/catalog/_partials/quickview.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Close</target>
+        <note>Context:
+File: themes/panda/templates/catalog/_partials/quickview.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/panda/templates/cms/stores.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="34c869c542dee932ef8cd96d2f91cae6">
+        <source>Our stores</source>
+        <target>Our stores</target>
+        <note>Context:
+File: themes/panda/templates/cms/stores.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="adc4f9f9cccaa450c10977d50da58d8d">
+        <source>About and Contact</source>
+        <target>About and Contact</target>
+        <note>Context:
+File: themes/panda/templates/cms/stores.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/panda/templates/errors/restricted-country.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="6351030f724f6f42fd11ec9aa6ee8c76">
+        <source>403 Forbidden</source>
+        <target>403 Forbidden</target>
+        <note>Context:
+File: themes/panda/templates/errors/restricted-country.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/panda/templates/catalog/_partials/facets-select.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="7a1c5301da6b1ce9e4345bd501397045">
+        <source>(no filter)</source>
+        <target>(no filter)</target>
+        <note>Context:
+File: themes/panda/templates/catalog/_partials/facets-select.tpl:42</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
